@@ -1,0 +1,25 @@
+{
+    "name": "pimenta/laravel-domain",
+    "description": "A laravel implementation for event sourcing",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pimsol/domain"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Jildert Miedema",
+            "email": "jildert@pimenta.nl"
+        }
+    ],
+    "require": {
+        "pimenta/domain": "dev-master"
+    },
+    "autoload": {
+        "PSR-4" : {
+            "Pimenta\\LaravelDomain\\" : "src/"
+        }
+    }
+}
